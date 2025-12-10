@@ -1,0 +1,43 @@
+<template>
+  <div id="app">
+    <app-header></app-header>
+    <app-specials></app-specials>
+    <app-features></app-features>
+    <app-download></app-download>
+    <app-testimonials></app-testimonials>
+    <app-contact></app-contact>
+    <app-footer></app-footer>
+  </div>
+</template>
+
+<script>
+import AppHeader from "./components/AppHeader.vue";
+import AppFeatures from "./components/AppFeatures.vue";
+import AppTestimonials from "./components/AppTestimonials.vue";
+import AppFooter from "./components/AppFooter.vue";
+import AppContact from "./components/AppContact.vue";
+import AppDownload from "./components/AppDownload.vue";
+import AppSpecials from "./components/AppSpecials.vue";
+
+export default {
+  components: {
+    AppHeader,
+    AppFeatures,
+    AppTestimonials,
+    AppFooter,
+    AppContact,
+    AppDownload,
+    AppSpecials
+  }
+};
+</script>
+
+<style>
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+#app{
+  color: var(--gold);
+  background-color: var(--black);
+}
+</style>
