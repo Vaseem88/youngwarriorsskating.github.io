@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <navigation-menu></navigation-menu>
     <app-header></app-header>
     <app-specials></app-specials>
     <app-features></app-features>
@@ -18,17 +19,19 @@ import AppFooter from "./components/AppFooter.vue";
 import AppContact from "./components/AppContact.vue";
 import AppDownload from "./components/AppDownload.vue";
 import AppSpecials from "./components/AppSpecials.vue";
+import NavigationMenu from "./components/NavigationMenu.vue";
 
 export default {
   components: {
+    NavigationMenu,
     AppHeader,
     AppFeatures,
     AppTestimonials,
     AppFooter,
     AppContact,
     AppDownload,
-    AppSpecials
-  }
+    AppSpecials,
+  },
 };
 </script>
 
@@ -36,8 +39,8 @@ export default {
 @tailwind preflight;
 @tailwind components;
 @tailwind utilities;
-#app{
-  color: var(--gold);
+#app {
+  color: var(--amberglow);
   background-color: var(--black);
 }
 </style>
