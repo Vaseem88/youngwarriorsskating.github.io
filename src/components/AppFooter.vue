@@ -17,9 +17,11 @@
         </div>
       </div>
       <div class="flex items-start justify-center text-center mt-10">
-        <div class="md:w-1/5 xs:w-1/3">
-          <div class="font-bold">Useful Links</div>
-          <div class="flex flex-col items-center font-thin opacity-75 mt-4">
+        <div>
+          <div class="font-bold allCaps text-4xl">Useful Links</div>
+          <div
+            class="flex flex-col items-center font-thin opacity-75 mt-4 text-3xl"
+          >
             <a href="#About" class="no-underline">About Us</a>
             <a href="#Programs" class="no-underline mt-2">Programs</a>
             <a href="#app" class="no-underline mt-2">Home</a>

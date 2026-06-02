@@ -12,12 +12,14 @@
           <div
             class="max-w-sm rounded overflow-hidden shadow-lg p-5 m-5 text-center rounded-full bg-blue-darkest"
           >
-            <img
-              class="w-1/6"
-              src="./../assets/whatsapp-icon-logo-svgrepo-com.svg"
-              alt="WhatsApp"
-            />
-            <div class="font-bold text-xl mb-2">Chat with Us</div>
+            <div>
+              <img
+                class="w-1/6"
+                src="./../assets/whatsapp-icon-logo-svgrepo-com.svg"
+                alt="WhatsApp"
+              />
+              <div class="font-bold text-xl mb-2">Chat with Us</div>
+            </div>
             <div class="font-bold text-xl mb-2">7338881156</div>
           </div>
 
@@ -47,10 +49,39 @@
               Youngwarriorsskating@gmail.com
             </div>
           </div>
+
+          <div
+            class="max-w-sm rounded overflow-hidden shadow-lg p-5 rounded-full m-5 text-center bg-blue-darkest pl-5"
+          >
+            <div>
+              <div>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/share/1Gi6YMFJcd/"
+                >
+                  <img
+                    src="./../assets/facebook-3-logo-svgrepo-com.svg"
+                    alt="facebook icon"
+                    class="h-16 mr-6"
+                  />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/_youngwarriors_skating_academy"
+                >
+                  <img
+                    src="./../assets/instagram-2-1-logo-svgrepo-com.svg"
+                    alt="instagram icon"
+                    class="h-16 mr-6"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div
-        class="md:w-1/2 xs:w-full md:mt-0 xs:mt-6 shadow-lg p-5 rounded bg-blue-darkest"
+        class="md:w-1/2 xs:w-full md:mt-0 xs:mt-6 shadow-lg p-5 rounded bg-blue-darkest md:mt-20"
       >
         <form action="#" method="post" class="" v-on:submit.prevent>
           <div class="xs:block text-extrabold mt-6 mb-4 text-4xl allCaps">
@@ -210,7 +241,7 @@
     <div class="bg-blue-darkest mx-2 md:mx-10 md:p-10 p-5 shadow-lg">
       <div id="Locations" class="font-bold allCaps text-4xl">Location</div>
       <div class="mt-2 md:text-xl xs:text-lg text-xl">
-        <div>6, Sri Aiyappa Nagar 7th St, Munusamy Nagar,</div>
+        <div>Sri Aiyappa Nagar 7th St, Munusamy Nagar</div>
         <div>Ponniammanmedu, Chennai,</div>
         <div>Tamil Nadu 600110</div>
         <div>
@@ -241,28 +272,6 @@
             >
             </iframe>
           </div>
-        </div>
-      </div>
-
-      <div class="mt-5">
-        <div>
-          <a target="_blank" href="https://www.facebook.com/share/1Gi6YMFJcd/">
-            <img
-              src="./../assets/facebook-3-logo-svgrepo-com.svg"
-              alt="facebook icon"
-              class="h-16 mr-6"
-            />
-          </a>
-          <a
-            target="_blank"
-            href="https://www.instagram.com/_youngwarriors_skating_academy"
-          >
-            <img
-              src="./../assets/instagram-2-1-logo-svgrepo-com.svg"
-              alt="instagram icon"
-              class="h-16 mr-6"
-            />
-          </a>
         </div>
       </div>
     </div>
