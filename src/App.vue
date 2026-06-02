@@ -1,10 +1,11 @@
 <template>
-  <div id="app">
+  <div id="app" class="largeFonts">
     <navigation-menu></navigation-menu>
     <app-header></app-header>
     <app-specials></app-specials>
     <app-features></app-features>
     <app-download></app-download>
+    <icon-bar></icon-bar>
     <app-testimonials></app-testimonials>
     <app-contact></app-contact>
     <app-footer></app-footer>
@@ -20,6 +21,7 @@ import AppContact from "./components/AppContact.vue";
 import AppDownload from "./components/AppDownload.vue";
 import AppSpecials from "./components/AppSpecials.vue";
 import NavigationMenu from "./components/NavigationMenu.vue";
+import IconBar from "./components/IconBar.vue";
 
 export default {
   components: {
@@ -31,6 +33,7 @@ export default {
     AppContact,
     AppDownload,
     AppSpecials,
+    IconBar,
   },
 };
 </script>

@@ -12,12 +12,12 @@
 
         <div class="w-auto xs:m-0 md:m-1 md:pl-24 md:pr-24">
           <h2
-            class="text-white font-black lg:text-4xl md:text-3xl sm:text-xl mb-4 lg:w-4/5 text-center"
+            class="text-white font-black lg:text-4xl md:text-3xl sm:text-xl mb-4 lg:w-4/5 text-center allCaps"
           >
             Discipline makes warriors. Passion creates champions.
           </h2>
           <div
-            class="text-grey-light opacity-50 mb-4 text-center lg:w-4/5 md:text-md md:text-2xl"
+            class="text-grey-light opacity-50 mb-4 text-center lg:w-4/5 md:text-md md:text-2xl allCaps"
           >
             Empowering Confidence through Skill
           </div>
@@ -27,7 +27,7 @@
             <a
               href="#"
               v-scroll-to="'#contact'"
-              class="flex-1 text-center verical-center justify-center text-sm px-6 py-3 leading-none no-underline border rounded-xl bg-main-green text-grey-lightest border-black hover:border-grey-lightest hover:text-grey-lightest hover:bg-transparent mt-4"
+              class="flex-1 text-center verical-center justify-center px-6 py-3 leading-none no-underline border rounded-xl bg-main-green text-grey-lightest border-black hover:border-grey-lightest hover:text-grey-lightest hover:bg-transparent mt-4"
             >
               Enroll Now
             </a>

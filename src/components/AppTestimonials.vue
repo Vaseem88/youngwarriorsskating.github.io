@@ -1,5 +1,5 @@
 <template>
-  <div id="testimonials" class="bg-grey-lightest pb-12">
+  <div id="testimonials" class="bg-grey-lightest pt-5 pb-12">
     <carousel
       :per-page="1"
       class="text-black"
@@ -11,7 +11,7 @@
     >
       <slide v-for="testimonial in testimonials" :key="testimonial.id">
         <div class="text-center">
-          <div class="text-2xl italic">
+          <div class="text-3xl italic allCaps">
             {{ testimonial.title }}
           </div>
           <p class="text-black font-base text-md opacity-80 m-10">
@@ -28,7 +28,7 @@
               class="flex justify-center ml-6 mt-3 text-black"
               style="flex-direction: column"
             >
-              <div class="font-medium text-3xl">
+              <div class="font-medium text-4xl">
                 {{ testimonial.name }}
               </div>
               <div class="font-thin text-xl opacity-75">
@@ -48,7 +48,7 @@ export default {
   data() {
     return {
       testimonials: null,
-      timeout: 5000,
+      timeout: 10000,
     };
   },
   mounted() {

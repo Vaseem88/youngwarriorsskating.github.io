@@ -1,11 +1,11 @@
 <template>
   <div id="Programs" class="mb-6">
     <div class="bg-grey-lightest">
-      <div class="bg-amberglow text-white p-2">
-        <h1 class="text-center font-semibold text-4xl">Programs</h1>
+      <div class="bg-black p-2">
+        <h1 class="text-center font-semibold text-5xl allCaps">Programs</h1>
         <h3 class="mt-3 text-center">Learn to skate with India’s best</h3>
       </div>
-      <div class="container mx-auto md:px-6">
+      <div class="mx-auto md:px-6">
         <div
           class="flex md:flex-no-wrap xs:flex-wrap items-center justify-center mt-5"
         >
@@ -15,7 +15,7 @@
               alt="mountain image"
               class="mb-4"
             />
-            <h3 class="mb-4">Speed Skating</h3>
+            <h3 class="mb-4 allCaps">Speed Skating</h3>
             <p class="text-black font-base opacity-75">
               Speed skating is an exhilarating competitive sport where athletes
               race on ice skates around an oval track, striving for the fastest
@@ -26,9 +26,9 @@
             <img
               src="./../assets/Bandy.jpg"
               alt="tent image"
-              class="h-1/2screen mb-4"
+              class="h-100 mb-4"
             />
-            <h3 class="mb-4">Bandy</h3>
+            <h3 class="mb-4 allCaps">Bandy</h3>
             <p class="text-black font-base opacity-75">
               A sport similar to ice hockey but played on roller skates.
               Students learn: Ball control, Team strategies, Quick turns & speed
@@ -46,7 +46,7 @@
               alt="tent image"
               class="mb-4"
             />
-            <h3 class="mb-4">Roll Ball</h3>
+            <h3 class="mb-4 allCaps">Roll Ball</h3>
             <p class="text-black font-base opacity-75">
               A fast-paced combination of roller skating + basketball +
               handball. Students learn: Passing, dribbling, and goal-scoring,
@@ -60,7 +60,7 @@
               alt="picnic image"
               class="mb-4"
             />
-            <h3 class="mb-4">Roller Hockey</h3>
+            <h3 class="mb-4 allCaps">Roller Hockey</h3>
             <p class="text-black font-base opacity-75">
               A thrilling sport played on skates with sticks and a ball/puck.
               Training includes: Skating control, Stick handling, Shooting &
@@ -74,13 +74,13 @@
           class="flex md:flex-no-wrap xs:flex-wrap items-center justify-center xs:mt-20"
         >
           <div class="flex flex-col md:flex-1">
-            <div class="md:m-4 text-center">
+            <div class="md:m-4 mx-2 text-center">
               <img
                 src="./../assets/about us 10.png"
                 alt="compass image"
                 class="mb-4"
               />
-              <h3 class="mb-4">About Our Classes</h3>
+              <h3 class="mb-4 allCaps">About Our Classes</h3>
               <p class="text-black font-thin">
                 We offer skating training for all age groups starting from 2.5
                 years up to adults. Our programs are designed to help every
@@ -88,13 +88,13 @@
                 in a fun and structured environment.
               </p>
             </div>
-            <div class="md:m-4 text-center">
+            <div class="md:m-4 mx-2 text-center">
               <img
                 src="./../assets/special nob.png"
                 alt="canteen image"
                 class="mb-4 md:mt-0 xs:mt-20"
               />
-              <h3 class="mb-4">Special Focus</h3>
+              <h3 class="mb-4 allCaps">Special Focus</h3>
               <p class="text-black font-thin">
                 Hyperactive Kids & Special Needs Children We provide individual
                 attention and customized training methods for: 🧠 Hyperactive
@@ -112,26 +112,26 @@
             />
           </div>
           <div class="flex flex-col md:flex-1">
-            <div class="md:m-4 text-center">
+            <div class="md:m-4 mx-2 text-center">
               <img
                 src="./../assets/special needs 2.png"
                 alt="forest image"
                 class="mb-4 md:mt-0 xs:mt-20"
               />
-              <h3 class="mb-4">💙 Special Needs Children (Any Age)</h3>
+              <h3 class="mb-4 allCaps">💙 Special Needs Children (Any Age)</h3>
               <p class="text-black font-thin">
                 We welcome children with conditions such as: Autism Spectrum,
                 Learning difficulties, Developmental delays, Sensory challenges
                 and Mild physical coordination issues.
               </p>
             </div>
-            <div class="md:m-4 text-center">
+            <div class="md:m-4 mx-2 text-center">
               <img
                 src="./../assets/trust us 2.png"
                 alt="pines image"
                 class="mb-4 md:mt-0 xs:mt-20"
               />
-              <h3 class="mb-4">✔️ Why Parents Trust Us</h3>
+              <h3 class="mb-4 allCaps">✔️ Why Parents Trust Us</h3>
               <p class="text-black font-thin">
                 Trained and patient instructors, Safe, controlled teaching
                 techniques, Flexible learning pace, Friendly environment for all
